@@ -1,0 +1,74 @@
+/*===============================================
+●style.css 画面の横幅が769px以上
+===============================================*/
+@media screen and (min-width: 769px){
+#container{
+width:100%;
+}
+img{
+max-width: 100%;
+height: auto;
+width /***/:auto;　
+}
+.ivent{
+	display: block;
+	background-color: #CCC;
+	height: 200px;
+	width: 500px;
+	float: left;
+	border: thin solid #999;
+	position: relative;
+	margin: 10px;
+}
+
+
+.trimming {
+	display: inline-block;
+	width: 200px;
+	height: 200px;
+	overflow: hidden;
+	float: left;
+	position: static;
+	
+ }
+ 
+.data {
+	width: 290px;
+	height: 160px;
+	font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+	font-size: 12px;
+	position: static;
+	float: left;
+	padding-left: 10px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+ }
+ 
+.titl {
+	font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+	font-size: 14px;
+	border-bottom-style: solid;
+	font-weight: 100;
+	width: 270px;
+	display: block;
+	line-height: 50px;
+	border-top-width: 1px;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+}
+.date {
+	height: 800px;
+	font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+	font-size: 14px;
+}
+
+div.photo {
+    width: 200px;
+    position: static;
+}
+div.photo img {
+    width: 200px;
+    position: absolute;
+    clip: rect(0px 200px 200px 0px);
+}
